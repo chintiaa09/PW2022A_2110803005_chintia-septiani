@@ -1,0 +1,16 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    color: lightcoral;
+}
+p{
+    color: gray;
+    line-height: 1.6cm;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    text-indent: 20px;   
+    text-decoration: line-through;
+}
