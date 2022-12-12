@@ -1,11 +1,9 @@
 <?php
-if (
-!isset($_GET["angka"])) 
+if (!isset($_GET["angka"])) 
 {echo "Silahkan input angka melalui link dengan format(?angka=10)";exit;}
 $j = $_GET["angka"];
 if (!empty($j)) {
-echo "";
-} else {die("Silahkan isikan angkanya! dengan format (?angka=10)");}
+echo "";} else {die("Silahkan isikan angkanya! dengan format (?angka=10)");}
 ?>
 
 <!DOCTYPE html>
